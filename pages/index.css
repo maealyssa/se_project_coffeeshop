@@ -1,8 +1,50 @@
 .page {
     min-width: 1100px;
     max-width: 1600px;
-    margin: auto;
+    margin: 0 auto;
     font-family: "Inter", "Arial", sans-serif;
     font-size: 16px;
     line-height: 20px;
+    background: #fff url("/images/background_header.svg") no-repeat center cover;
+}
+
+/* NAVBAR */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.nav__logo {
+    position: relative;
+    height: 39px;
+    width: 105px;
+    margin: 30px 30px;
+}
+
+.nav__links {
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 80px;
+}
+
+.nav__link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #1f69c9;
+}
+
+/* HEADER */
+
+.header {
+    min-block-size: 720px;
+    max-block-size: 800px;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
 }

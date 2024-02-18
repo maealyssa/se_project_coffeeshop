@@ -26,18 +26,10 @@
                   class="nav__logo"
                 />
                 <ul class="nav__links">
-                  <li>
-                    <a href="#link-recipes" class="nav__link">Recipes</a>
-                  </li>
-                  <li>
-                    <a href="#link-book" class="nav__link">Book a table</a>
-                  </li>
-                  <li>
-                    <a href="#link-menu" class="nav__link">Menu</a>
-                  </li>
-                  <li>
-                    <a href="#link-footer" class="nav__link">Contacts</a>
-                  </li>
+                  <li><a href="#link-recipes" class="nav__link">Recipes</a></li>
+                  <li><a href="#link-reservations" class="nav__link">Book a table</a></li>
+                  <li><a href="#link-menu" class="nav__link">Menu</a></li>
+                  <li><a href="#link-footer" class="nav__link">Contacts</a></li>
                 </ul>
             </nav>
             <h1 class="header__title">
@@ -56,12 +48,41 @@
             </div>
         </header>
         <main class="content">
-            <section class="recipes"></section>
-            <section class="reservation"></section>
-            <section class="menu"></section>
-            <section class="about"></section>
+            <section class="recipes" id="link-recipes">
+              <h1 class="recipes__title">Recipes</h1>
+              <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+              <div class="recipes__videos">
+                <div>
+                  <iframe
+                    src="https://www.youtube.com/embed/j6VlT_jUVPc?si=_5cTDhClawzMm29P"
+                    title="YouTube video player"
+                    class="recipes__iframe"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p class="recipes__videos-caption">
+                    <span>Aeropress recipe</span> ~5 min
+                  </p>
+                </div>
+                <div>
+                  <iframe
+                    src="https://www.youtube.com/embed/st571DYYTR8?si=DmPSVcJStp41-7cz"
+                    title="YouTube video player"
+                    class="recipes__iframe"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p class="recipes__videos-caption">
+                    <span>French press recipe</span> ~15 min
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="reservation" id="link-reservations"></section>
+            <section class="menu" id="link-menu"></section>
+            <section class="about" id="link-about"></section>
         </main>
-        <footer class="footer">
+        <footer class="footer" id="link-footer">
         </footer>
     </div>
 </body>

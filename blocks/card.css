@@ -10,10 +10,9 @@
   }
   
   .card__list {
-    padding: 0;
+    padding: 0 0 16px 0;
     margin: 0;
     list-style: none;
-    gap: 16px;
   }
   
   .card__list-item {

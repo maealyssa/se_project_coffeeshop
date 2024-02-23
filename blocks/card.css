@@ -21,6 +21,10 @@
     font-family: "Noto serif", "Times New Roman", serif;
     padding-bottom: 16px;
   }
+
+  .card__list-item:last-of-type {
+    padding-bottom: 0;
+}
   
   .card__list-divider {
     flex-grow: 1;
